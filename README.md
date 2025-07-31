@@ -38,7 +38,7 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Dashboard Screenshot](./screenshots/Dashboard.jpg)
+![Dashboard Screenshot](./screenshots/Dasboard.jpg)
 *Overview of library statistics and quick actions*
 
 ### Book Management
@@ -46,7 +46,7 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 *Add, edit, and manage book inventory*
 
 ### AI Chat Interface
-![AI Chat Screenshot](./screenshots/chat-interface.jpg)
+![AI Chat Screenshot](./screenshots/chatinterface.jpg)
 *Natural language database queries using Google Gemini API*
 
 ### AI Chat Interface Example
