@@ -5,6 +5,7 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 ## 🌟 Features
 
 ### Core Functionality
+
 - **Book Management**: Add, update, delete, and search books
 - **User Management**: Manage library members and staff
 - **Borrowing System**: Issue and return books with due date tracking
@@ -12,11 +13,13 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 - **Search**: search capabilities across multiple parameter
 
 ### AI-Powered Features
+
 - **Natural Language Queries**: Ask questions in plain English like "Show me overdue books" or "Find books by author John Doe"
 
 ## 🛠️ Tech Stack
 
 ### Backend
+
 - **Java 17**
 - **Spring Boot 3.2.5**
 - **Spring Data JPA**
@@ -25,12 +28,14 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 - **Google Gemini API**
 
 ### Frontend
+
 - **React 18**
 - **JavaScript**
 - **Axios** for API calls
 - **React Router** for navigation
 
 ### Development Tools
+
 - **Maven** for dependency management
 - **Postman** for API testing
 - **VS Code & IntelliJ** for development
@@ -38,29 +43,34 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 ## 📸 Screenshots
 
 ### Main Dashboard
+
 ![Dashboard Screenshot](./screenshots/Dasboard.jpg)
-*Overview of library statistics and quick actions*
+_Overview of library statistics and quick actions_
 
 ### Book Management
+
 ![Book Management Screenshot](./screenshots/Books.jpg)
-*Add, edit, and manage book inventory*
+_Add, edit, and manage book inventory_
 
 ### AI Chat Interface
-![AI Chat Screenshot](./screenshots/chat%20interface.jpg)
-*Natural language database queries using Google Gemini API*
+
+![AI Chat Screenshot](./screenshots/chatInterface.jpg)
+_Natural language database queries using Google Gemini API_
 
 ### AI Chat Interface Example
+
 ![AI Chat Screenshot](./screenshots/chatExample.jpg)
-*Natural language database queries using Google Gemini API Example*
+_Natural language database queries using Google Gemini API Example_
 
 ### User Management
+
 ![User Management Screenshot](./screenshots/Members.jpg)
-*Manage library members and staff*
+_Manage library members and staff_
 
 ### Borrowing System
-![Borrowing Screenshot](./screenshots/Borrowing.jpg)
-*Issue and return books with tracking*
 
+![Borrowing Screenshot](./screenshots/Borrowing.jpg)
+_Issue and return books with tracking_
 
 ## 📁 Project Structure
 
@@ -77,7 +87,7 @@ lms-library-management/
 │   │   └── security/            # Security configuration
 │   └── src/main/resources/
 │       ├── application.properties
-│              
+│
 ├── frontend/
 │   ├── src/
 │   │   ├── components/          # Reusable components
@@ -92,6 +102,7 @@ lms-library-management/
 ## 🔌 API Endpoints
 
 ### Books
+
 - `GET /api/books` - Get all books
 - `GET /api/books/{id}` - Get book by ID
 - `POST /api/books` - Add new book
@@ -99,29 +110,30 @@ lms-library-management/
 - `DELETE /api/books/{id}` - Delete book
 
 ### Users
+
 - `GET /api/users` - Get all users
 - `POST /api/users` - Register new user
 - `PUT /api/users/{id}` - Update user
 - `DELETE /api/users/{id}` - Delete user
 
 ### Borrowing
+
 - `POST /api/borrow` - Borrow a book
 - `POST /api/return` - Return a book
 - `GET /api/borrowed/{userId}` - Get user's borrowed books
 
 ### AI Chat
+
 - `POST /api/chat/query` - Send natural language query
 
-
 ### AI-Powered Natural Language Queries
+
 The system integrates Google Gemini API to convert natural language questions into SQL queries:
 
 ```javascript
 // Example queries you can ask:
-"Show me all overdue books"
-"Find books published after 2020"
-"Which users have borrowed the most books?"
-"List available books in the Science category"
+"Show me all overdue books";
+"Find books published after 2020";
+"Which users have borrowed the most books?";
+"List available books in the Science category";
 ```
-
-
