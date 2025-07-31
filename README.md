@@ -38,27 +38,27 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Dashboard Screenshot](./screenshots/dashboard.png)
+![Dashboard Screenshot](./screenshots/Dashboard.jpg)
 *Overview of library statistics and quick actions*
 
 ### Book Management
-![Book Management Screenshot](./screenshots/book-management.png)
+![Book Management Screenshot](./screenshots/Books.jpg)
 *Add, edit, and manage book inventory*
 
 ### AI Chat Interface
-![AI Chat Screenshot](./screenshots/ai-chat.png)
+![AI Chat Screenshot](./screenshots/chat-interface.jpg)
 *Natural language database queries using Google Gemini API*
 
-### Search & Filter
-![Search Screenshot](./screenshots/search-page.png)
-*Advanced search and filtering capabilities*
+### AI Chat Interface Example
+![AI Chat Screenshot](./screenshots/chatExample.jpg)
+*Natural language database queries using Google Gemini API Example*
 
 ### User Management
-![User Management Screenshot](./screenshots/user-management.png)
+![User Management Screenshot](./screenshots/Members.jpg)
 *Manage library members and staff*
 
 ### Borrowing System
-![Borrowing Screenshot](./screenshots/borrowing-system.png)
+![Borrowing Screenshot](./screenshots/Borrowing.jpg)
 *Issue and return books with tracking*
 
 
