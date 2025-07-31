@@ -46,7 +46,7 @@ A modern, full-stack Library Management System built with Spring Boot and React,
 *Add, edit, and manage book inventory*
 
 ### AI Chat Interface
-![AI Chat Screenshot](./screenshots/chatinterface.jpg)
+![AI Chat Screenshot](./screenshots/chat interface.jpg)
 *Natural language database queries using Google Gemini API*
 
 ### AI Chat Interface Example
