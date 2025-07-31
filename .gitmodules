@@ -1,0 +1,3 @@
+[submodule "LMS-Spring"]
+	path = LMS-Spring
+	url = https://github.com/Sthor21/LMS-Spring.git
